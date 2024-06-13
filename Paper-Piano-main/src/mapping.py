@@ -91,7 +91,7 @@ def analyse(image):
     contours = sorted(contours, key=cv2.contourArea, reverse=True)
 
     shapes = []
-    
+    ap =1
     # Loop over the contours
     for contour in contours:
         # Approximate the contour to a polygon
